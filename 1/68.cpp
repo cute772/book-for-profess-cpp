@@ -14,6 +14,7 @@ int main() {
     anEmployee.lastInitial = 'G';
     anEmployee.employeeNumber = 43;
     anEmployee.salary = 80000;
+    // test code for vscode 
 
 
     // 배열 선언 및 초기화
