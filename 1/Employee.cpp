@@ -60,7 +60,7 @@ namespace Records
 
     void setEmployeeNumber(int employeeNumber) 
     {
-        mEmployeeNumber = employeeNumber;
+        mEmployeeNumber = employeeNumber; 
     }
 
     const int getEmployeeNumber()
