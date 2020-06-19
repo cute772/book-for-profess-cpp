@@ -17,6 +17,8 @@ project(aTest)
 # project(BookTest LANGUAGE CXX VERSION 0.1)
 
 ## 
+include_directories(/usr/local/boost/include)
+link_libraries(pthread)
 set(SOURCE A.cpp A.hpp aTest.cpp)
 
 add_executable(${PROJECT_NAME} ${SOURCE})
