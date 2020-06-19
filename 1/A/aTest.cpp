@@ -3,6 +3,9 @@
 #include <memory>
 #include "A.hpp"
 
+// https://modoocode.com/229
+// http://tcpschool.com/cpp/cpp_template_smartPointer
+
 // std::shared_ptr 에 대한 설명
 // http://egloos.zum.com/sweeper/v/2826435
 
