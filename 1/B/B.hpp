@@ -10,9 +10,11 @@ class B
         ~B();
         std::string getName();
         std::string getAddress();
+        std::string getPublicName();
         void some();
         void doSomething();
         void thrower();
+        std::string publicName;
         
     private:
         std::string mName;

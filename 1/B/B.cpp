@@ -34,6 +34,11 @@ std::string B::getAddress()
     return mAddress;
 }
 
+std::string B::getPublicName()
+{
+    return publicName;
+}
+
 void B::some() { std::cout << "일반 포인터와 동일하게 사용가능!" << std::endl; }
 
 void B::doSomething() 
